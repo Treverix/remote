@@ -12,6 +12,10 @@ process.
 `@electron/remote` is a replacement for the built-in `remote` module in
 Electron, which is deprecated and will eventually be removed.
 
+This fork allows using this remote module and the electron remote
+module at the same time. That can help migrating from remote
+in larger applications.
+
 ## Migrating from `remote`
 
 There are two things you need to do to migrate from the built-in `remote`

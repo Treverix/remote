@@ -354,7 +354,7 @@ export function initialize() {
       if (customEvent.defaultPrevented) {
         throw new Error(`Blocked remote.require('${moduleName}')`)
       } else {
-        customEvent.returnValue = process.mainModule!.require(moduleName)
+        customEvent.returnValue = require.main!.require(moduleName)
       }
     }
 

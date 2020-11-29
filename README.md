@@ -1,3 +1,5 @@
+⚠️ **Archived** This library is no longer maintained and will not be updated to work with electron 11+. All users should use the original library `@electron/remote` now.
+
 # @electron/remote
 
 `@electron/remote` is an [Electron](https://electronjs.org) module that bridges
